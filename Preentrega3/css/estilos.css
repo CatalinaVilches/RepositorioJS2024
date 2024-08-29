@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.menu,
+.products,
+.checkout {
+    margin-bottom: 20px;
+}
+
+.product-item {
+    margin-bottom: 10px;
+}
+
+.product-item input {
+    width: 60px;
+}
