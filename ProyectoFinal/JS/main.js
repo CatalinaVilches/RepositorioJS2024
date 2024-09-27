@@ -2,7 +2,6 @@ document.addEventListener('DOMContentLoaded', () => {
     let cantidades = JSON.parse(localStorage.getItem('cantidades')) || {};
     let productos = [];
 
-    // Cargar productos desde el archivo JSON
     fetch('productos.json')
         .then(response => {
             if (!response.ok) {
@@ -11,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
             return response.json();
         })
         .then(data => {
-            productos = data; // Asignar a la variable global
+            productos = data; 
             data.forEach(p => {
                 cantidades[p.nombre] = cantidades[p.nombre] || 0;
             });
@@ -90,6 +89,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     window.confirmarCompra = () => {
         document.getElementById('checkout').innerHTML = '<p>Transacción realizada. ¡Gracias por su compra!</p>';
-        vaciarCarrito(); // Limpiar carrito después de la compra
+        vaciarCarrito();
     }
 });
