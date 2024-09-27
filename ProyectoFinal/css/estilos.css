@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+.header {
+    padding: 10px 20px;
+    background-color: #ffbbf9;
+}
+.logo {
+    width: 100px; 
+    height: 100px;
+}
+
+body {
+    background-image: url('../assets/bgimage.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.menu,
+.products,
+.checkout {
+    margin-bottom: 20px;
+}
+
+.product-item {
+    margin-bottom: 10px;
+}
+
+.product-item input {
+    width: 60px;
+}

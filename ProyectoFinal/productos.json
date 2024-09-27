@@ -1,0 +1,11 @@
+[
+    { "tipo": "pasteles", "nombre": "Pastel de Chocolate", "precio": 9990 },
+    { "tipo": "pasteles", "nombre": "Pastel de Fruta", "precio": 7990 },
+    { "tipo": "pasteles", "nombre": "Pastel Red Velvet", "precio": 8490 },
+    { "tipo": "galletas", "nombre": "Galletas Chips de Chocolate", "precio": 1490 },
+    { "tipo": "galletas", "nombre": "Galletas Chispas de Colores", "precio": 1590 },
+    { "tipo": "galletas", "nombre": "Galletas Sin Azúcar", "precio": 1790 },
+    { "tipo": "cupcakes", "nombre": "Cupcake Vainilla", "precio": 1490 },
+    { "tipo": "cupcakes", "nombre": "Cupcake Chocolate", "precio": 1590 },
+    { "tipo": "cupcakes", "nombre": "Cupcake Frutilla Sin Azúcar", "precio": 1690 }
+]
